@@ -1,0 +1,61 @@
+body
+{
+	margin: 0;
+}
+
+.header
+{
+	background-color: #85c80f;
+	color:#ffffff;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.headerleft
+{
+	float: left;
+}
+
+.headerright
+{
+	margin-left: 85%;
+}
+
+.content
+{
+	background-color: #e1f9b5;
+	font-family: "Microsoft YaHei" ! important;
+
+}
+
+.content_li
+{
+	width: 70%;
+	margin: auto;
+}
+
+.content_li_left
+{
+	float: left;
+}
+
+.content_li_middle
+{
+	margin-left: 33%;
+}
+
+.content_li_right
+{
+	margin-left: 66%;
+}
+
+.footer
+{
+	background-color: #85c80f;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.footer_li
+{
+	width: 70%;
+	margin: auto;
+}
