@@ -5,6 +5,7 @@ body
 	font-size: 13px;
 	font-weight: normal;	
 	line-height: 1.5;
+	width: 640px;
 }
 
 ul,li,h1,h2,h3,h4,h5,h6,p,form,dl,dt,dd
