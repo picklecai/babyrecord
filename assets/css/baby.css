@@ -1,13 +1,48 @@
 body
 {
+	margin: 0 auto;
+	font-family: "Microsoft YaHei" ! important;
+	font-size: 13px;
+	font-weight: normal;	
+	line-height: 1.5;
+}
+
+ul,li,h1,h2,h3,h4,h5,h6,p,form,dl,dt,dd
+{
 	margin: 0;
+	padding: 0;
+}
+
+ul
+{
+	list-style: none;
+}
+
+ul li
+{
+	float: left;	
+}
+
+img
+{
+	border: 0px;
+}
+
+a
+{
+	display: block;
+}
+
+a:hover
+{
+	color:#fc2;
 }
 
 .header
 {
 	background-color: #85c80f;
 	color:#ffffff;
-	font-family: "Microsoft YaHei" ! important;
+	overflow: auto;
 }
 
 .headerleft
@@ -23,39 +58,41 @@ body
 .content
 {
 	background-color: #e1f9b5;
-	font-family: "Microsoft YaHei" ! important;
-
 }
 
 .content_li
 {
 	width: 70%;
-	margin: auto;
+	overflow: auto;
+	margin:auto;
 }
 
-.content_li_left
+.content_li ul li
 {
-	float: left;
-}
-
-.content_li_middle
-{
-	margin-left: 33%;
-}
-
-.content_li_right
-{
-	margin-left: 66%;
+	margin: 20px 0px 0x 20px;
+	display: inline;
+	text-align: center;	
+	width: 30%;
+	height: 70px;
 }
 
 .footer
 {
 	background-color: #85c80f;
-	font-family: "Microsoft YaHei" ! important;
 }
 
 .footer_li
 {
 	width: 70%;
+	overflow: auto;
 	margin: auto;
+}
+
+.footer_li ul li
+{
+	margin: 20px 0px 0px 20px;
+	display: inline;
+	text-align: center;	
+	width: 30%;
+	height: 70px;
 }
