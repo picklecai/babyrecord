@@ -12,16 +12,24 @@
 <body>
 
 <div class="header">
-	<div class="headerleft">
-	<a href="/github/babyrecord/templates/baby.html">
-		<div>{babyname},{babygender}</div>
-		<div>{babyage}</div>
-	</a>
+	<div class="headerleft" onclick="showAndHidden1();">
+		{babyname},{babygender}
+		</br>
+		{babyage}
 	</div>
 	<div class="headerright">
 		<a href="/github/babyrecord/templates/search.html"><img src="/github/babyrecord/assets/images/search.png" width="30" height="30"/></a>
 		<a href="/github/babyrecord/templates/sendmail.html"><img src="/github/babyrecord/assets/images/mail.png" width="30" height="30"/></a>
 		<a href="/github/babyrecord/templates/takephoto.html"><img src="/github/babyrecord/assets/images/camera.png" width="30" height="30"/></a>
+	</div>	
+</div>
+
+<div id="babymenu" class="hiddendiv">
+	<div class="menu">
+		<ul>
+			<li><a href="/github/babyrecord/templates/addbaby.html"></a>添加新宝宝</li>
+			<li><a href="/github/babyrecord/templates/updatebaby.html"></a>编辑宝宝信息</li>
+		</ul>
 	</div>
 </div>
 
@@ -73,7 +81,12 @@
 	</div>
 </div>
 
-</body>
-</html>
+<script type="text/javascript"> 
+	function showAndHidden1(){ 
+		var babymenu=document.getElementById("babymenu"); 
+		if(babymenu.style.display=='none') babymenu.style.display='block'; 
+	} 
+</script> 
 
-<!DOCTYPE HTML><html><head><title>弹出层、弹窗效果+拖曳功能 </title> 
+</body>
+</html> 
