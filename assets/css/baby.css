@@ -5,7 +5,6 @@ body
 	font-size: 13px;
 	font-weight: normal;	
 	line-height: 1.5;
-	width: 640px;
 }
 
 ul,li,h1,h2,h3,h4,h5,h6,p,form,dl,dt,dd
@@ -21,7 +20,7 @@ ul
 
 ul li
 {
-	float: left;	
+	float: left;
 }
 
 img
@@ -29,71 +28,70 @@ img
 	border: 0px;
 }
 
-a
-{
-	display: block;
-}
-
-a:hover
-{
-	color:#fc2;
-}
-
 .header
 {
 	background-color: #85c80f;
-	color:#ffffff;
+	color:#fff;
 	overflow: auto;
+	height: 45px;
+}
+
+.header a:link
+{
+	color: #fff;
+}
+
+.header a:visited
+{
+	color: #fff;
 }
 
 .headerleft
 {
 	float: left;
+	margin-left: 3.125%;
 }
 
 .headerright
 {
-	margin-left: 85%;
+	margin-left: 62.5%;
 }
 
 .content
 {
 	background-color: #e1f9b5;
+	height: 425px;
 }
 
 .content_li
 {
-	width: 70%;
+	width: 100%;
 	overflow: auto;
-	margin:auto;
 }
 
 .content_li ul li
 {
-	margin: 20px 0px 0x 20px;
 	display: inline;
 	text-align: center;	
-	width: 30%;
-	height: 70px;
+	width: 33.33%;
 }
 
 .footer
 {
 	background-color: #85c80f;
+	height: 74px;
 }
 
 .footer_li
 {
-	width: 70%;
+	width: 100%;
 	overflow: auto;
 	margin: auto;
 }
 
 .footer_li ul li
 {
-	margin: 20px 0px 0px 20px;
 	display: inline;
 	text-align: center;	
-	width: 30%;
-	height: 70px;
+	width: 33.33%;
 }
