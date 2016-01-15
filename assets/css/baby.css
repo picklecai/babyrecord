@@ -49,7 +49,10 @@ img
 
 .headerright
 {
-	margin-left: 62.5%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:right;
 }
 
 #search
