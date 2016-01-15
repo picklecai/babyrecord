@@ -25,7 +25,7 @@
 	</div>	
 </div>
 
-<div id="babymenu" style="display:none">
+<div id="babymenu" style="visibility:hidden; ">
 	<div class="menu">
 		<ul>
 			<li><a href="/github/babyrecord/templates/addbaby.html"></a>添加新宝宝</li>
@@ -85,13 +85,13 @@
 <script type="text/javascript"> 
 	function showandhidden(){ 
 		var div1=document.getElementById("babymenu"); 
-		if(div1.style.display=='none')
+		if(div1.style.visibility=='hidden')
 			{
-				div1.style.display='block';
+				div1.style.visibility='';
 			}
 		else
 			{
-				div1.style.display='none';
+				div1.style.visibility='hidden';
 			} 
 		}
 </script> 
