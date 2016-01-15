@@ -13,25 +13,29 @@
 <body>
 
 <div class="header">
-	<div class="headerleft" onclick="showandhidden();">
+	<div class="headerleft" onclick="showandhidden(babymenu)";>
 		{babyname},{babygender}
 		</br>
 		{babyage}
 	</div>
 	<div class="headerright">
-		<a href="/github/babyrecord/templates/search.html"><img src="/github/babyrecord/assets/images/search.png" width="30" height="30"/></a>
+		<img src="/github/babyrecord/assets/images/search.png" width="30" height="30" onclick="showandhidden(searchbar);" />
 		<a href="/github/babyrecord/templates/sendmail.html"><img src="/github/babyrecord/assets/images/mail.png" width="30" height="30"/></a>
 		<a href="/github/babyrecord/templates/takephoto.html"><img src="/github/babyrecord/assets/images/camera.png" width="30" height="30"/></a>
 	</div>	
 </div>
 
-<div id="babymenu" style="visibility:hidden; ">
+<div id="babymenu" style="visibility:hidden">
 	<div class="menu">
 		<ul>
 			<li><a href="/github/babyrecord/templates/addbaby.html"></a>添加新宝宝</li>
 			<li><a href="/github/babyrecord/templates/updatebaby.html"></a>编辑宝宝信息</li>
 		</ul>
 	</div>
+</div>
+
+<div id="searchbar" style="visibility:hidden; float:right; width:50%; margin-right:0px; ">
+	<input id="search" name="search" type="text" />
 </div>
 
 <div class="content">
@@ -82,9 +86,8 @@
 	</div>
 </div>
 
-<script type="text/javascript"> 
-	function showandhidden(){ 
-		var div1=document.getElementById("babymenu"); 
+<script type="text/javascript">
+	function showandhidden(div1){
 		if(div1.style.visibility=='hidden')
 			{
 				div1.style.visibility='';

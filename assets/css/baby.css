@@ -52,6 +52,12 @@ img
 	margin-left: 62.5%;
 }
 
+#search
+{
+	width: 97.5%;
+	border-bottom: 1px solid #ccc;
+}
+
 .menu
 {
 	background-color: #85c80f;
